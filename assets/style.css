@@ -1,0 +1,20 @@
+body {
+  font-family: "Source Code Pro", monospace;
+  background-color: white;
+}
+.container-fluid {
+  background-color: white;
+}
+.col-3 {
+  margin-top: 50px;
+}
+.col-6 {
+  margin-top: 75px;
+}
+h2 {
+  color: white;
+}
+.scrollingDiv {
+  height: 500px;
+  overflow: scroll;
+}
