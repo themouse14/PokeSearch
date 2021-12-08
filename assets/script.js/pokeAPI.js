@@ -52,13 +52,9 @@ async function getPokemon() {
                 
                 
 
-                // if (pokemon.results[j].name = searchValue ) {
-
-                // }
-            // }
-            // }
+                
         })
-}
+    }
 
 
 
