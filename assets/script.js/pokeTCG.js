@@ -3,7 +3,7 @@
 // API Key: 4c3f5891-21b8-4f5e-892e-a14841e797e7
 
 async function testCall2() {
-    await fetch("https://api.pokemontcg.io/v2/cards?limit=151")
+    await fetch("https://api.pokemontcg.io/v2/cards")
         .then(response => response.json())
         .then(types => console.log(types))
 
