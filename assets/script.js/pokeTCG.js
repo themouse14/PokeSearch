@@ -1,5 +1,10 @@
 // Second API Call
+async function testCall2() {
+    await fetch("https://api.pokemontcg.io/v2/cards")
+        .then(response => response.json())
+        .then(cards => console.log(cards))
 
+<<<<<<< HEAD
 // API Key: 4c3f5891-21b8-4f5e-892e-a14841e797e7
 
 async function testCall2() {
@@ -101,3 +106,8 @@ pokemonSearch.addEventListener("click", getPrices)
 
 
 // pokemonSearch.addEventListener("click", getPokemon);
+=======
+}
+
+testCall2();          
+>>>>>>> 151e4af2116c216380a03f71ed570b9ab2046c40
