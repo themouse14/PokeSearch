@@ -6,7 +6,7 @@ As developers, we wanted to create a website for Pokemon card collectors and ent
 
 When the user opens the webpage, they will see a list from the original 151 Pokemon, with an image of their respective Pokemon card image.
 
-When the user finds a Pokemon they like, they will see the Pokemon type listed
+When the user finds a Pokemon they like, they will see the Pokemon type listed alongside their card image.
 
 ### Built With
 
