@@ -1,20 +1,65 @@
 body {
-  font-family: "Source Code Pro", monospace;
-  background-color: white;
+  font-size: 10px;
+  font-smooth: never;
+  -webkit-font-smoothing: none;
+  font-family: 'pokemon-font', monospace;
+  
 }
-.container-fluid {
-  background-color: white;
+
+.container {
+  overflow:scroll
 }
-.col-3 {
-  margin-top: 50px;
-}
-.col-6 {
-  margin-top: 75px;
-}
+
 h2 {
   color: white;
 }
-.scrollingDiv {
-  height: 500px;
+#pokedex {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 20px;
+  padding-inline-start: 0;
   overflow: scroll;
+}
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.card:hover {
+  animation: bounce 0.5s linear;
+}
+
+.card {
+  list-style: none;
+  padding: 40px;
+  background-color: #0e0202;
+  color: rgb(251, 249, 249);
+text-align: center;
+
+}
+
+.card-title {
+  text-transform: capitalize;
+  margin-bottom: 0px;
+  font-size: 32px;
+  font-weight: normal;
+}
+.card-subtitle {
+  margin-top: 5px;
+  color: white;
+  font-weight: lighter;
+}
+
+.card-image {
+  height: 200px;
+  
+}
+
+@keyframes spin {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
 }
