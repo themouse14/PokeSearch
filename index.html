@@ -43,7 +43,10 @@
             <div class="align-items-left">
                 <label class="form-label" for="datatable-search-input"></label> 
                 <input type="text" class="form-control" id="datatable-search-input" placeholder="Search for Pokémon"/>
-                <Button class="btn my-2 btn-primary w-100" id="searchBtn">Search Pokémon</Button>
+                <Button class="btn my-2 btn-primary w-100" id="searchBtn">Search Pokémon Abilities</Button>
+            </div>
+            <div class="align-items-left">
+                <Button class="btn my-2 btn-primary w-100" id="searchBtnTCG">Search TCG</Button>
             </div>
         </div>
         <article class="col-6 col-md-8">
@@ -57,7 +60,11 @@
             </div>
             </div>
         </article>
-
+        <div id="pokeModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+            </div>
+        </div>
     </main>
     <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

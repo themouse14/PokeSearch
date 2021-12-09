@@ -18,3 +18,23 @@ h2 {
   height: 500px;
   overflow: scroll;
 }
+
+.modalEl {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+
+.modal-content {
+  margin: auto;
+  padding: 20px;
+  border: 1px solid rgb(29, 26, 26);
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+}
