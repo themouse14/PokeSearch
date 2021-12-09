@@ -56,18 +56,6 @@ async function getPokemon() {
             pokemonName.textContent = pokeName;
             
             
-
-            // nameContainer.textContent= "";
-            // pokemonName.textContent = pokeName;
-            
-
-
-            
-            
-            
-            
-
-
             //Dynamically appending pokemon abilities to html
             const pokemonInfo = document.createElement("div")
             pokemonInfo.setAttribute("class", "pokemoninfo")
@@ -86,10 +74,6 @@ async function getPokemon() {
     })
 }
 
-
-//     const pokemonContainer = document.querySelector(".ability-container");
-//     const formEl = document.querySelector("form");
-//     const inputEl = document.querySelector("input[type=text]");
     
 
-// pokemonSearch.addEventListener("click", getPokemon);
+pokemonSearch.addEventListener("click", getPokemon);
