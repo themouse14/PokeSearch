@@ -13,9 +13,6 @@ async function pokemonPrices(){
 };
 pokemonPrices();
 
-
-=======
 }
 
 testCall2();          
->>>>>>> 3761e24401ca1803476a66934fdca461aa2f2a2d
