@@ -7,3 +7,5 @@ async function pokemonPrices(){
     .then(prices => console.log(prices))
 };
 pokemonPrices();
+
+
