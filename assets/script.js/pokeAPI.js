@@ -29,7 +29,7 @@ const fetchPokemon = () => {
 };
 
 const displayPokemon = (pokemon) => {
-    console.log(pokemon);
+    
     const pokemonHTMLString = pokemon
         .map(
             (pokemon) => `
