@@ -1,15 +1,11 @@
 
 body {
   font-size: 10px;
-  font-smooth: never;
   -webkit-font-smoothing: none;
   font-family: 'pokemon-font', monospace;
+  background-attachment: fixed;
 }
 
-.container {
-  overflow:scroll
-  
-}
 
 h2 {
   color: white;
@@ -19,8 +15,8 @@ h2 {
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-gap: 20px;
   padding-inline-start: 0;
-  overflow: scroll;
 }
+
 h1 {
   text-align: center;
   margin-top: 50px;
