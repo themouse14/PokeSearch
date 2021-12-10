@@ -1,13 +1,14 @@
+
 body {
   font-size: 10px;
   font-smooth: never;
   -webkit-font-smoothing: none;
   font-family: 'pokemon-font', monospace;
-  
 }
 
 .container {
   overflow:scroll
+  
 }
 
 h2 {
@@ -32,10 +33,10 @@ h1 {
 .card {
   list-style: none;
   padding: 40px;
-  background-color: #0e0202;
-  color: rgb(251, 249, 249);
+  background-color: #4d4d4d5e;
+  color: rgb(0, 0, 0);
 text-align: center;
-
+border-radius: 5px;
 }
 
 .card-title {
@@ -46,7 +47,7 @@ text-align: center;
 }
 .card-subtitle {
   margin-top: 5px;
-  color: white;
+  color: rgb(0, 0, 0);
   font-weight: lighter;
 }
 
@@ -55,27 +56,6 @@ text-align: center;
   
 }
 
-<<<<<<< HEAD
-.modalEl {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  width: 100%;
-  height: 100%;
-}
-
-.modal-content {
-  margin: auto;
-  padding: 20px;
-  border: 1px solid rgb(29, 26, 26);
-}
-
-.close {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
-}
-=======
 @keyframes spin {
   0% {
       transform: rotate(0deg);
@@ -84,4 +64,3 @@ text-align: center;
       transform: rotate(360deg);
   }
 }
->>>>>>> 151e4af2116c216380a03f71ed570b9ab2046c40
