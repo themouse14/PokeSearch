@@ -24,7 +24,11 @@ Pokemon TCG API
 
 - https://api.pokemontcg.io/v2/cards
 
------screenshot of completed website here-------
+Github URL
+
+- https://themouse14.github.io/PokeSearch/
+
+![Picture of Pokemon Webiste](/assets/images/screenshotreadme.png)
 
 ## Authors
 
