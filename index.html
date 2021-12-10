@@ -16,17 +16,17 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
 
     <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/pikachu.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <!-- <link
         href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Code+Pro&family=Yuji+Mai&family=Yuji+Syuku&display=swap"
-        rel="stylesheet">
+        rel="stylesheet"> -->
     <link rel="stylesheet" href="assets/style.css">
-    <title>PokéSearch</title>
+    <title>Pokédex</title>
 </head>
 
 <body background="./assets/images/pikachu_background.jpeg">
-    <nav class="navbar navbar-light bg-light">
+    <!-- <nav class="navbar navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="assets/images/pokeball.png" class="me-2" height="50" alt="Pokesearch logo" loading="lazy" />
@@ -34,29 +34,13 @@
             </a>
         </div>
         <div>Icons made by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-    </nav>
+    </nav> -->
 
-    <main class="row">
-
-        <div class="col-3 col-md-3">
-            
-            <div class="align-items-left">
-                <label class="form-label" for="datatable-search-input"></label> 
-                <input type="text" class="form-control" id="datatable-search-input" placeholder="Search for Pokémon"/>
-                <Button class="btn my-2 btn-primary w-100" id="searchBtn">Search Pokémon</Button>
-            </div>
+ </div>
+        <div class="container">
+            <h1><img src="assets/images/pokeball.png" class="me-2" height="50" alt="Pokesearch logo" loading="lazy" /> Pokédex <img src="assets/images/pokeball.png" class="me-2" height="50" alt="Pokesearch logo" loading="lazy" /></h1>
+            <ul id="pokedex"></ul>
         </div>
-        <article class="col-6 col-md-8">
-
-            <div class="border border-dark border-2 shadow rounded" id="searchResults">
-                <h2 id="currentDataList">Pokémon Results:</h2>
-                <div class="scrollingDiv" id="datatable">
-                    <div id="poke-container" class="ui-cards"></div>
-                    <div class="ability-container"></div>
-                </div>
-            </div>
-            </div>
-        </article>
 
     </main>
     <!-- jQuery library -->

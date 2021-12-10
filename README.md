@@ -1,14 +1,12 @@
 # PokeSearch
 
-As developers, we wanted to create a website for gamers to find their favorite games by genre or year, as well as a storefront to purchase the chosen game.
+As developers, we wanted to create a website for Pokemon card collectors and enthusiasts to look up their favorite pokemon from the original Kanto region.
 
 ## Description and Usage
 
-When the user opens the webpage, they will see a drop down menu for the genre and a drop down menu for the year.
+When the user opens the webpage, they will see a list from the original 151 Pokemon, with an image of their respective Pokemon card image.
 
-When the user finds a game they like through the given parameters, the application will also populate price and a storefront where the user can purcahse that game.
-
-The user interface will be easy and simple to use, with a drop down menu for each search option.
+When the user finds a Pokemon they like, they will see the Pokemon type listed alongside their card image.
 
 ### Built With
 
@@ -18,13 +16,13 @@ The user interface will be easy and simple to use, with a drop down menu for eac
 
 ### API's
 
-CheapShark
+Poke API
 
-- https://www.cheapshark.com/api/1.0/stores
+- https://pokeapi.co/api/v2/pokemon/
 
-RAWG
+Pokemon TCG API
 
-- https://api.rawg.io/api/games?key=8d248e60c35d4a06aa9e584a6a9d9167
+- https://api.pokemontcg.io/v2/cards
 
 -----screenshot of completed website here-------
 
