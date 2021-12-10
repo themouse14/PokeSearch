@@ -26,21 +26,33 @@
 </head>
 
 <body background="./assets/images/pikachu_background.jpeg">
-    <!-- <nav class="navbar navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="assets/images/pokeball.png" class="me-2" height="50" alt="Pokesearch logo" loading="lazy" />
-                <medium>PokéSearch</medium>
-            </a>
+  
+    <div class="col-3 col-md-3">
+            
+        <div class="align-items-center">
+            <label class="form-label" for="datatable-search-input"></label> 
+            <input type="text" class="form-control" id="datatable-search-input" placeholder="Search for Pokémon"/>
+            <Button class="btn my-2 btn-primary w-100" id="searchBtn">Search Pokémon</Button>
         </div>
-        <div>Icons made by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-    </nav> -->
+    </div>
+    <article class="col-6 col-md-8">
 
+        <div class="border border-dark border-2 shadow rounded" id="searchResults">
+            <h2 id="currentDataList">Pokémon Results:</h2>
+            <div class="scrollingDiv" id="datatable">
+                <div class="abitity-container" class="ui-cards">
+            </div>
+        </div>
+        </div>
+    </article>
+    <article class="col-6 col-md-10">
  </div>
         <div class="container">
             <h1><img src="assets/images/pokeball.png" class="me-2" height="50" alt="Pokesearch logo" loading="lazy" /> Pokédex <img src="assets/images/pokeball.png" class="me-2" height="50" alt="Pokesearch logo" loading="lazy" /></h1>
             <ul id="pokedex"></ul>
         </div>
+    </article>
+
 
     </main>
     <!-- jQuery library -->

@@ -7,9 +7,13 @@ body {
 }
 
 .container {
-  overflow:scroll
+  overflow:scroll;
+  margin-left: 200px;
 }
 
+#searchResults{
+  height: 250px;
+}
 h2 {
   color: white;
 }
